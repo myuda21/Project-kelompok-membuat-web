@@ -1,0 +1,123 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    width: 1200px;
+    position: relative;
+   margin: auto;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #000000;
+    margin: auto ;
+
+}
+
+.menu{
+    float: right;
+
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #000000;
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a {
+    color: rgb(1, 1, 1);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.message-us{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    top: 75px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.card-contactus {
+    background-color: darkgray;
+    border: solid black;
+    width: 270px;
+    height: 350px;
+    margin: 30px;
+    border-radius: 10px 10px 10px 10px;  
+}
+
+p{
+    color: black;
+}
+
+p:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.image{
+    position: relative;
+    top: 40px;
+}
+
+.image:hover{
+    cursor: pointer;
+}
+
+.social-media{
+    position: relative;
+    top: 60px;
+}
+
+.contact{
+    position: relative;
+    top: 80px;
+}
+

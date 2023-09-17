@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="login.js"></script>
+    <nav>
+        <header class="wrapper">
+            <div class="logo"><a href="index.html"><img src="Logo.png" width="50px"> MTgraphy</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="subscribe.html" class="tbl-biru">Subscribe</a></li>
+                </ul>
+            </div>   
+    </nav>
+    <hr>
+    <br>
+</head>
+<body>
+<div class="container">
+    <div class="title">Subscribe</div><br>
+    <form action="#">
+        <div class="user-details">
+            <div class="input-box">
+                <span class="details">Full Name</span>
+                <input type="text" placeholder="Enter Your Full Name" id="nama" required>
+            </div><br>
+            <div class="input-box">
+                <span class="details">E-mail</span>
+                <input type="text" placeholder="Enter Your E-mail" id="email" required>
+            </div><br>
+            <div class="input-box">
+                <span class="details">Phone Number</span>
+                <input type="text" placeholder="Enter Your Phone Number" id="hp" required>
+            </div><br>
+            <div class="input-box">
+                <span class="details">Country</span>
+                <select name="country" id="country" required>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Malaysia">Malaysia</option>
+                  </select>
+            </div>
+        </div>
+        <input type="checkbox" text-color="black" required> Customer must agree with terms and condition</input>
+        <div class="tombol">
+            <input type="submit" value="Subscribe" id="submit" onclick="alert('Successfully Subscribe')"></a>
+        </div>
+    </form>
+</div>
+    
+</body>
+</html>

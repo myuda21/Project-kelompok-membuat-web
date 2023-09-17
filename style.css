@@ -1,0 +1,115 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    width: 1200px;
+    position: relative;
+   margin: auto;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #000000;
+    margin: auto ;
+
+}
+
+.menu{
+    float: right;
+
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #000000;
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a {
+    color: rgb(1, 1, 1);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    transform: scale(1);
+    transition: 0.3s ease-in-out; 
+}
+
+.card {
+    border: solid black;
+    width: 270px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+
+.card-image {
+    background-color:black;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+ .card:hover{
+    transform: scale(1.18);
+}
+
+.car1 {
+    background-image: url(https://s0\.bukalapak.com/uploads/attachment/20827/toy-photography.jpg);
+}
+
+.car2 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/55396962e4b053ce148cb1e1/1450124205998-HRTKMV483O08T06ZV4UB/about-us.jpg);
+}
+
+.car3 {
+    background-image: url(https://thumbs.dreamstime.com/b/contact-us-creative-icon-button-design-graphic-41926153.jpg);
+}
+
+.abous-us {
+    margin: auto;
+    
+}
